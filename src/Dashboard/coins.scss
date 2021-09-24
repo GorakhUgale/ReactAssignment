@@ -1,0 +1,97 @@
+.main {
+    padding: 30px;
+
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+        background-color: transparent;
+        border-collapse: collapse;
+        cursor: pointer;
+        
+        tbody tr:hover {
+            background-color: rgba(0,0,0,.075);
+        }
+
+        thead th, tbody td {
+            padding: 12px;
+            border-bottom: 2px solid #dee2e6;
+        }
+    }
+
+    .pager {
+        display: flex;
+
+        button {
+            padding: 8px 16px;
+            border: none;
+        }
+
+        .previous, .next {
+            background-color: #dee2e6;
+            color: black;
+        }
+
+        button:hover {
+            background-color: #b1b3b6;
+            color: black;
+            border: none;
+        }
+    }
+
+    .details {
+        .name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nameSymbol {
+            background-color: #eff2f5;
+            color: #58667e;
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            margin-left: 12px;
+            margin-right: 6px;
+        }
+        .group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px 0px;
+        }
+        .title {
+            font-size: medium;
+            font-weight: 500;
+        }
+    }
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.px-2 {
+    padding: 0px 4px;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+
+ .w-full {
+     width: 100%;
+ }
+ .w-1-4 {
+    width: 25%;
+ }
